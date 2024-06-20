@@ -1,0 +1,102 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        background-color: #F8F9F9;
+    }
+    /* NAV */
+    
+    @media screen and (max-width: 1200px) {
+        .main-Nav {
+            width: 90%;
+        }
+    }
+    
+    .main-Nav {
+        margin: 0 auto;
+        width: 1200px;
+    }
+    
+    .main-Nav .navMenu {
+        text-align: center;
+        justify-content: center;
+        padding: 1rem auto;
+    }
+    
+    .navMenu {
+        justify-content: center;
+        display: flex;
+        padding: 2rem 0;
+        border-bottom: 1px solid black;
+    }
+    
+    .navMenu ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .navMenu ul li {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar {
+        padding: 1rem .5rem;
+        transition: .2s ease-in-out;
+        border-radius: 5px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .navbar:hover {
+        background-color: antiquewhite;
+        transition: 0.2s ease-in-out;
+        border-radius: 10px;
+        padding: 0 auto;
+    }
+    /* NAV END */
+    /* ORDER MAIN */
+    
+    .orderMain .orderForm {
+        padding: 2rem;
+    }
+    
+    .orderForm h2 {
+        font-size: 21px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .orderForm input {
+        height: 60px;
+        width: 50%;
+        padding: 0 15px;
+        font-size: 16px;
+        margin-bottom: 1.2rem;
+        text-align: center;
+        border-radius: 13px;
+    }
+    
+    .btnOrder {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    
+    .btnOrder:hover {
+        transition: 0.2s ease-in-out;
+        background-color: #FBEEE6;
+    }
+    
+    form {
+        text-align: center;
+    }

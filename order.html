@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="style/forms.css">
+    <script src="order.js"></script>
+</head>
+
+<!-- Navigation -->
+<navigation>
+    <div class="main-Nav">
+        <div class="navMenu">
+            <ul>
+                <li><a class="navbar" href="index.html">Home</a></li>
+                <li><a class="navbar" href="#">Product</a></li>
+                <li><a class="navbar" href="order.html">Order Here</a></li>
+            </ul>
+        </div>
+
+</navigation>
+<!-- Navigation End -->
+
+<body>
+    <!-- Order Form -->
+    <div class="orderMain">
+        <div class="orderForm">
+            <h2>Silahkan Isi Data di Bawah :</h2>
+            <form name="orderForm" action="order.php" method="post" onsubmit="return validateForm()">
+                <input type="text" name="fullname" placeholder="Masukkan Nama Lengkap">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="nomor" placeholder="Nomor Handphone">
+                <input type="text" name="alamat" placeholder="Alamat Lengkap">
+                <input type="submit" value="Order Now" class="btnOrder" href="index.html">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

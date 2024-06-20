@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F9F9;
+}
+
+
+/* INDEX HTML */
+
+
+/* NAVIGATION */
+
+@media screen and (max-width: 1200px) {
+    .main-Nav {
+        width: 90%;
+    }
+}
+
+.main-Nav {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main-Nav .navMenu {
+    text-align: center;
+    justify-content: center;
+    padding: 1rem auto;
+}
+
+.navMenu {
+    justify-content: center;
+    display: flex;
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
+}
+
+.navMenu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navMenu ul li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 1rem .5rem;
+    transition: .2s ease-in-out;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar:hover {
+    background-color: antiquewhite;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+    padding: 0 auto;
+}
+
+
+/* NAVIGATION END */
+
+
+/* Intro */
+
+#intro {
+    height: 450px;
+    justify-content: center;
+    display: flex;
+    padding: 3rem 0;
+}
+
+.leftIntro {
+    width: 90%;
+    margin: 0 2rem;
+}
+
+.leftIntro .titleIntro {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: .5rem 0 1rem;
+}
+
+.leftIntro p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.rightIntro {
+    width: 90%;
+    text-align: center;
+}
+
+.rightIntro img {
+    height: 250px;
+    width: 250px;
+}
+
+
+/* Intro End */
